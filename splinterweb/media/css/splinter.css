@@ -54,6 +54,7 @@ body {
 #page h2 {
     font-size: 24px;
     font-weight: bold;
+    margin-bottom: 4px;
 }
 
 #page #main {
@@ -81,4 +82,18 @@ body {
 
 #page #right #release a strong {
     font-weight: bold;
+}
+
+#page #main .features {
+    margin: 20px 0 20px 0;
+}
+
+#page #main .features li {
+    margin: 0 0 7px 13px;
+    color: #B42F14;
+    list-style: square;
+}
+
+#page #main .started a {
+    color: #B42F14;
 }
