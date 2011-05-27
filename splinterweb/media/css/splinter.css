@@ -1,0 +1,84 @@
+body {
+    font-family: 'Segoe UI', Calibri, 'Myriad Pro', Myriad, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+}
+#header {
+    padding: 10px 0 50px 0;
+    border-bottom: 4px solid #b42f14;
+    background-color: #5d6266;
+    color: #fff;
+}
+#header .header-container {
+    height: 70px;
+    width: 900px;
+    margin: 0 auto;
+}
+
+#header .title {
+    float: left;
+}
+#header h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #8f989d;
+
+}
+
+.nav {
+    margin: 20px auto;
+    float: right;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    float: left;
+    padding: 20px;
+    background-color: #b42f14;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    background-color: #411200;
+    text-decoration: underline;
+}
+
+#page {
+    clear: both;
+    width: 900px;
+    margin: 20px auto;
+}
+
+#page h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#page #main {
+    float: left;
+    width: 700px;
+}
+
+#page #right {
+    display: block;
+    float: right;
+    background-color: #5d6266;
+}
+
+#page #right #release a {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+} 
+
+#page #right #release a:hover {
+    text-decoration: underline;
+}
+
+#page #right #release a strong {
+    font-weight: bold;
+}
