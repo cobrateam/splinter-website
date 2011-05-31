@@ -6,7 +6,7 @@ code.prettyprint { display: block; padding: 2px; border: 1px solid #888; backgro
 .str { color: #ffa0a0; } /* string  - pink */
 .kwd { color: #f0e68c; font-weight: bold; }
 .com { color: #87ceeb; } /* comment - skyblue */
-.typ { color: #98fb98; } /* type    - lightgreen */
+.typ { color: #fff; } /* type    - plaintext */
 .lit { color: #cd5c5c; } /* literal - darkred */
 .pun { color: #fff; }    /* punctuation */
 .pln { color: #fff; }    /* plaintext */
