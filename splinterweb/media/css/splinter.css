@@ -84,6 +84,10 @@ body {
     font-weight: bold;
 }
 
+#page #main .code {
+    margin: 20px 0 20px 0;
+}
+
 #page #main .features {
     margin: 20px 0 20px 0;
 }

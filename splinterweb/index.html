@@ -7,6 +7,9 @@
         <meta name="keywords" content="splinter, python, web applications, tests, acceptance tests, cobrateam" />
         <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.3.0/build/cssreset/reset-min.css" />
         <link rel="stylesheet" href="media/css/splinter.css" type="text/css" />
+        <link rel="stylesheet" href="media/css/prettify.css" type="text/css" />
+        <script type="text/javascript" src="media/js/prettify.js"></script>
+
         <script type="text/javascript">
             var _gaq = _gaq || [];
             _gaq.push(['_setAccount', 'UA-23628203-1']);
@@ -19,7 +22,7 @@
         </script>
 
     </head>
-    <body>
+    <body onload="prettyPrint()">
         <div id="header">
             <div class="header-container">
                 <div class="title">
@@ -36,8 +39,27 @@
         </div>
         <div id="page">
             <div id="main">
-                <h2>test your web applications with Splinter</h2>
-                <p>Splinter is an open source tool for testing web applications using Python. It lets you automate browser actions, such as visiting URLs and interacting with their items. </p>
+                <h2>test your web applications using Splinter</h2>
+                <p>Splinter is an open source tool for testing web applications using Python. It lets you automate browser
+                 actions, such as visiting URLs and interacting with their items. </p>
+
+                <p class="code">
+                    <h2>sample code</h2>
+                        <code class="prettyprint">
+                            <br /> from splinter import Browser
+                            <br /> browser = Browser()
+                            <br /> # Visit URL
+                            <br /> url = 'http://splinter.cobrateam.info/'
+                            <br /> browser.visit(url)
+                            <br /> # Find elements
+                            <br /> button = browser.find_by_css(‘.button’).first
+                            <br /> # Interact with elements
+                            <br /> button.click()
+                            <br /> browser.fill(field, value)
+                            <br /> browser.choose(‘sample-radio’)
+                            <br />
+                        </code>
+                </p>
 
                 <ul class="features">
                     <h2>features</h2>
