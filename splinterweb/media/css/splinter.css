@@ -59,7 +59,8 @@ body {
 
 #page #main {
     float: left;
-    width: 700px;
+    width: 690px;
+    padding-right: 10px;
 }
 
 #page #main p {
