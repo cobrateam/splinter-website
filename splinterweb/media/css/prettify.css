@@ -53,5 +53,6 @@ pre.prettyprint, code.prettyprint{
         -ms-border-radius: 8px;
         -khtml-border-radius: 8px;
         border-radius: 8px;
+        margin: 10px
 }
 

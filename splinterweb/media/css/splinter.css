@@ -62,6 +62,10 @@ body {
     width: 700px;
 }
 
+#page #main p {
+    margin: 10px;
+}
+
 #page #right {
     display: block;
     float: right;
