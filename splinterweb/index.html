@@ -43,26 +43,24 @@
                 <p>Splinter is an open source tool for testing web applications using Python. It lets you automate browser
                  actions, such as visiting URLs and interacting with their items. </p>
 
-                <p class="code">
-                    <h2>sample code</h2>
-                        <code class="prettyprint">
-                            <br /> from splinter.browser import Browser
-                            <br /> browser = Browser()
-                            <br /> # Visit URL
-                            <br /> url = "http://search.twitter.com"
-                            <br /> browser.visit(url)
-                            <br /> browser.fill('q', "#cobrateam")
-                            <br /> # Find and click the 'search' button
-                            <br /> button = browser.find_by_css("#searchButton input").first
-                            <br /> # Interact with elements
-                            <br /> button.click()
-                            <br /> if browser.is_text_present("No results for #cobrateam")
-                            <br />     print "nobody likes us"
-                            <br /> else:
-                            <br />     print "we're popular =)"
-                            <br />
-                        </code>
-                </p>
+                <h2>sample code</h2>
+                <code class="prettyprint">
+                    <br /> from splinter.browser import Browser
+                    <br /> browser = Browser()
+                    <br /> # Visit URL
+                    <br /> url = "http://search.twitter.com"
+                    <br /> browser.visit(url)
+                    <br /> browser.fill('q', "#cobrateam")
+                    <br /> # Find and click the 'search' button
+                    <br /> button = browser.find_by_css("#searchButton input").first
+                    <br /> # Interact with elements
+                    <br /> button.click()
+                    <br /> if browser.is_text_present("No results for #cobrateam")
+                    <br />     print "nobody likes us"
+                    <br /> else:
+                    <br />     print "we're popular =)"
+                    <br />
+                </code>
 
                 <ul class="features">
                     <h2>features</h2>
