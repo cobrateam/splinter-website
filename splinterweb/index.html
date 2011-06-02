@@ -46,17 +46,20 @@
                 <p class="code">
                     <h2>sample code</h2>
                         <code class="prettyprint">
-                            <br /> from splinter import Browser
+                            <br /> from splinter.browser import Browser
                             <br /> browser = Browser()
                             <br /> # Visit URL
-                            <br /> url = 'http://splinter.cobrateam.info/'
+                            <br /> url = "http://search.twitter.com"
                             <br /> browser.visit(url)
-                            <br /> # Find elements
-                            <br /> button = browser.find_by_css(‘.button’).first
+                            <br /> browser.fill('q', "#cobrateam")
+                            <br /> # Find and click the 'search' button
+                            <br /> button = browser.find_by_css("#searchButton input").first
                             <br /> # Interact with elements
                             <br /> button.click()
-                            <br /> browser.fill(field, value)
-                            <br /> browser.choose(‘sample-radio’)
+                            <br /> if browser.is_text_present("No results for #cobrateam")
+                            <br />     print "nobody likes us"
+                            <br /> else:
+                            <br />     print "we're popular =)"
                             <br />
                         </code>
                 </p>
