@@ -1,0 +1,118 @@
+# Portuguese (Brazil) translations for PROJECT.
+# Copyright (C) 2011 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2011-06-03 00:13-0300\n"
+"PO-Revision-Date: 2011-06-03 00:13-0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: pt_BR <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: templates/index.html:30
+msgid "test framework for web applications"
+msgstr "framework de testes para aplicações web"
+
+#: templates/index.html:33
+msgid "home"
+msgstr "principal"
+
+#: templates/index.html:34
+msgid "install"
+msgstr "instalar"
+
+#: templates/index.html:35
+msgid "documentation"
+msgstr "documentação"
+
+#: templates/index.html:36
+msgid "community"
+msgstr "comunidade"
+
+#: templates/index.html:37
+msgid "contribute"
+msgstr "contribua"
+
+#: templates/index.html:43
+msgid "test your web applications using Splinter"
+msgstr "teste sua aplicação usando o Splinter"
+
+#: templates/index.html:44
+msgid ""
+"Splinter is an open source tool for testing web applications using "
+"Python. It lets you automate browser\n"
+"                 actions, such as visiting URLs and interacting with "
+"their items."
+msgstr ""
+"Splinter é uma ferramenta open-source para testes de aplicações web utilizando "
+"Python. Ele permite que você automatize as ações do navegador"
+", como a visita a uma URL e interagindo com os seus itens."
+
+#: templates/index.html:47
+msgid "sample code"
+msgstr "código exemplo"
+
+#: templates/index.html:66
+msgid "features"
+msgstr "funcionalidades"
+
+#: templates/index.html:68
+msgid "simple api"
+msgstr "api simples"
+
+#: templates/index.html:69
+msgid "multi webdrivers (chrome, firefox, zopetestbrowser)"
+msgstr "múltiplos webdrivers (chrome, firefox, zopetestbrowser)"
+
+#: templates/index.html:70
+msgid "css and xpath selectors"
+msgstr "seletores css e xpath"
+
+#: templates/index.html:71
+msgid "support to iframe and alert"
+msgstr "suporte a iframe e alert"
+
+#: templates/index.html:72
+msgid "execute javascript"
+msgstr "executa javascript"
+
+#: templates/index.html:73
+msgid "work's with ajax and async javascript"
+msgstr "funciona com ajax e javascript assíncrono"
+
+#: templates/index.html:76
+msgid "getting started"
+msgstr "começando"
+
+#: templates/index.html:77
+msgid "when you're ready to test, read the"
+msgstr "quando você estiver pronto para testar, leia o"
+
+#: templates/index.html:77
+msgid "installation guide"
+msgstr "guia de instalação"
+
+#: templates/index.html:77
+msgid "and"
+msgstr "e"
+
+#: templates/index.html:77
+msgid "tutorial"
+msgstr "tutorial"
+
+#: templates/index.html:81
+msgid "current release:"
+msgstr "versão corrente:"
+
+#: templates/index.html:86
+msgid "Sphinx is powered by"
+msgstr ""
+
