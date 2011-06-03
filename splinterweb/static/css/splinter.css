@@ -59,13 +59,32 @@ body {
 
 #page #main {
     float: left;
-    width: 700px;
+    width: 690px;
+    padding-right: 10px;
+}
+
+#page #main h1 {
+    font-size: 180%;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #000;
+}
+
+#page #main p {
+    margin: 10px;
 }
 
 #page #right {
     display: block;
     float: right;
     background-color: #5d6266;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -o-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -khtml-border-radius: 8px;
+    border-radius: 8px;
 }
 
 #page #right #release a {
@@ -84,8 +103,12 @@ body {
     font-weight: bold;
 }
 
-#page #main .features {
+#page #main .code {
     margin: 20px 0 20px 0;
+}
+
+#page #main .features {
+    margin: 10px 10px 10px 20px;
 }
 
 #page #main .features li {
@@ -96,4 +119,18 @@ body {
 
 #page #main .started a {
     color: #B42F14;
+}
+
+#footer {
+    color: #555;
+    width: 100%;
+    padding: 13px 0;
+    text-align: center;
+    font-size: 75%;
+    clear: both;
+}
+
+#footer a {
+    color: #444;
+    text-decoration: underline;
 }

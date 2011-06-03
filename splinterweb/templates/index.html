@@ -7,6 +7,9 @@
         <meta name="keywords" content="splinter, python, web applications, tests, acceptance tests, cobrateam" />
         <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.3.0/build/cssreset/reset-min.css" />
         <link rel="stylesheet" href="/static/css/splinter.css" type="text/css" />
+        <link rel="stylesheet" href="/static/css/prettify.css" type="text/css" />
+        <script type="text/javascript" src="/static/js/prettify.js"></script>
+
         <script type="text/javascript">
             var _gaq = _gaq || [];
             _gaq.push(['_setAccount', 'UA-23628203-1']);
@@ -19,14 +22,15 @@
         </script>
 
     </head>
-    <body>
+    <body onload="prettyPrint()">
         <div id="header">
             <div class="header-container">
                 <div class="title">
                     <h1>splinter</h1>
-                    <p>{{ _("tool for test web applications") }}</p>
+                    <p>{{ _("test framework for web applications") }}</p>
                 </div>
                 <ul class="nav">
+                    <li><a href="/">{{ _("home") }}</a></li>
                     <li><a href="/docs/install.html">{{ _("install") }}</a></li>
                     <li><a href="/docs/">{{ _("documentation") }}</a></li>
                     <li><a href="/docs/community.html">{{ _("community") }}</a></li>
@@ -36,18 +40,40 @@
         </div>
         <div id="page">
             <div id="main">
-                <h2>{{ _("splinter is a test tool for web applications.") }}</h2>
-                <p>{{ _("splinter is a tool for test web applications with a simple for find elements, form actions, and others browser actions.") }}</p>
+                <h1>test your web applications using Splinter</h1>
+                <p>Splinter is an open source tool for testing web applications using Python. It lets you automate browser
+                 actions, such as visiting URLs and interacting with their items. </p>
+
+                <h2>sample code</h2>
+                <code class="prettyprint">
+                    <br /> from splinter.browser import Browser
+                    <br /> browser = Browser()
+                    <br /> # Visit URL
+                    <br /> url = "http://search.twitter.com"
+                    <br /> browser.visit(url)
+                    <br /> browser.fill('q', "#cobrateam")
+                    <br /> # Find and click the 'search' button
+                    <br /> button = browser.find_by_css("#searchButton input").first
+                    <br /> # Interact with elements
+                    <br /> button.click()
+                    <br /> if browser.is_text_present("No results for #cobrateam")
+                    <br />     print "nobody likes us"
+                    <br /> else:
+                    <br />     print "we're popular =)"
+                    <br />
+                </code>
+
+                <h2>features</h2>
                 <ul class="features">
-                    <h2>{{ _("features") }}</h2>
-                    <li>{{ _("simple api") }}</li>
-                    <li>{{ _("multi webdrivers (chrome, firefox, zopetestbrowser)") }}</li>
-                    <li>{{ _("css and xpath selectors") }}</li>
-                    <li>{{ _("support to iframe and alert") }}</li>
-                    <li>{{ _("execute javascript") }}</li>
-                    <li>{{ _("work's with ajax and async javascript") }}</li>
+                    <li>simple api</li>
+                    <li>multi webdrivers (chrome, firefox, zopetestbrowser)</li>
+                    <li>css and xpath selectors</li>
+                    <li>support to iframe and alert</li>
+                    <li>execute javascript</li>
+                    <li>work's with ajax and async javascript</li>
                 </ul>
-                <h2>{{ _("getting started") }}</h2>
+
+                <h2>getting started</h2>
                 <p class='started'>when you're ready to test, read the <a href="/docs/install.html">installation guide</a> and <a href="/docs/tutorial.html">tutorial</a>.</p>
             </div>
             <div id="right">
@@ -56,6 +82,8 @@
                 </div>
             </div>
         </div>
-        <div id="footer"></div>
+        <div id="footer">
+            Sphinx is powered by <a href="http://github.com/cobrateam/splinter/" rel="nofollow" target="_blank" title="open source">open source</a>.
+        </div>
     </body>
 </html>
