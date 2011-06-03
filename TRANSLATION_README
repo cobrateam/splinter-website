@@ -1,0 +1,15 @@
+
+Assuming you are on splinterweb directory
+
+Creating the message file:
+pybabel extract -F babel.cfg -o messages.pot .
+
+Initing a language:
+pybabel init -i messages.pot -d translations -l pt_br
+
+Compiling the translated messages
+pybabel compile -d translations
+
+
+
+More info: http://packages.python.org/Flask-Babel/
