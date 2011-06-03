@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from flask import Flask, render_template
+from flask import Flask, g, render_template
 from flaskext.babel import Babel
 
 app = Flask("Splinter Website")
@@ -7,6 +7,7 @@ babel = Babel(app, default_locale='en')
 
 @app.route("/")
 def index():
+    g.languages = babel.list_translations()
     return render_template("index.html")
 
 @app.route("/<language>")
