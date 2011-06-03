@@ -1,0 +1,115 @@
+# Translations template for PROJECT.
+# Copyright (C) 2011 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2011-06-03 00:13-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: templates/index.html:30
+msgid "test framework for web applications"
+msgstr ""
+
+#: templates/index.html:33
+msgid "home"
+msgstr ""
+
+#: templates/index.html:34
+msgid "install"
+msgstr ""
+
+#: templates/index.html:35
+msgid "documentation"
+msgstr ""
+
+#: templates/index.html:36
+msgid "community"
+msgstr ""
+
+#: templates/index.html:37
+msgid "contribute"
+msgstr ""
+
+#: templates/index.html:43
+msgid "test your web applications using Splinter"
+msgstr ""
+
+#: templates/index.html:44
+msgid ""
+"Splinter is an open source tool for testing web applications using "
+"Python. It lets you automate browser\n"
+"                 actions, such as visiting URLs and interacting with "
+"their items."
+msgstr ""
+
+#: templates/index.html:47
+msgid "sample code"
+msgstr ""
+
+#: templates/index.html:66
+msgid "features"
+msgstr ""
+
+#: templates/index.html:68
+msgid "simple api"
+msgstr ""
+
+#: templates/index.html:69
+msgid "multi webdrivers (chrome, firefox, zopetestbrowser)"
+msgstr ""
+
+#: templates/index.html:70
+msgid "css and xpath selectors"
+msgstr ""
+
+#: templates/index.html:71
+msgid "support to iframe and alert"
+msgstr ""
+
+#: templates/index.html:72
+msgid "execute javascript"
+msgstr ""
+
+#: templates/index.html:73
+msgid "work's with ajax and async javascript"
+msgstr ""
+
+#: templates/index.html:76
+msgid "getting started"
+msgstr ""
+
+#: templates/index.html:77
+msgid "when you're ready to test, read the"
+msgstr ""
+
+#: templates/index.html:77
+msgid "installation guide"
+msgstr ""
+
+#: templates/index.html:77
+msgid "and"
+msgstr ""
+
+#: templates/index.html:77
+msgid "tutorial"
+msgstr ""
+
+#: templates/index.html:81
+msgid "current release:"
+msgstr ""
+
+#: templates/index.html:86
+msgid "Sphinx is powered by"
+msgstr ""
+
