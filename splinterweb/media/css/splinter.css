@@ -51,24 +51,37 @@ body {
     margin: 20px auto;
 }
 
+#page h1 {
+    font-size: 180%;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #000;
+}
+
 #page h2 {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 4px;
 }
 
+#page h3 {
+    font-size: 120%;
+    font-weight: bold;
+    margin: 10px 5px;
+}
+
+#page h4 {
+    color: #B42F14;
+    font-size: 110%;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
 #page #main {
     float: left;
     width: 690px;
     padding-right: 10px;
-}
-
-#page #main h1 {
-    font-size: 180%;
-    font-weight: bold;
-    margin-bottom: 15px;
-    padding-bottom: 4px;
-    border-bottom: 1px solid #000;
 }
 
 #page #main p {
