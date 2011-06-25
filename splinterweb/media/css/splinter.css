@@ -77,7 +77,7 @@ body {
     margin: 0 20px;
 }
 
-#page .highlight {
+#page .sprint {
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     border-radius: 4px;
@@ -89,7 +89,7 @@ body {
     width: 450px;
 }
 
-#page .highlight a {
+#page .sprint a {
     color: #B42F14;
 }
 
