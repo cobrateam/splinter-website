@@ -1,6 +1,12 @@
 body {
     font-family: 'Segoe UI', Calibri, 'Myriad Pro', Myriad, 'Trebuchet MS', Helvetica, Arial, sans-serif;
 }
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
 #header {
     padding: 10px 0 50px 0;
     border-bottom: 4px solid #b42f14;
