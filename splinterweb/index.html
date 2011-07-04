@@ -30,11 +30,11 @@
                     <p>test framework for web applications</p>
                 </div>
                 <ul class="nav">
-                    <li><a href="/">home</a></li>
+                    <li><a href="/" class="first">home</a></li>
                     <li><a href="/docs/install.html">install</a></li>
                     <li><a href="/docs/">documentation</a></li>
                     <li><a href="/docs/community.html">community</a></li>
-                    <li><a href="/docs/contribute.html">contribute</a></li>
+                    <li><a href="/docs/contribute.html" class="last">contribute</a></li>
                 </ul>
             </div>
         </div>
@@ -56,7 +56,7 @@
                     <br /> button = browser.find_by_css("#searchButton input").first
                     <br /> # Interact with elements
                     <br /> button.click()
-                    <br /> if browser.is_text_present("No results for #cobrateam")
+                    <br /> if browser.is_text_present("No results for #cobrateam"):
                     <br />     print "nobody likes us =("
                     <br /> else:
                     <br />     print "we're popular =)"
