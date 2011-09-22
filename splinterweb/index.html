@@ -49,14 +49,14 @@
                     <br /> from splinter.browser import Browser
                     <br /> browser = Browser()
                     <br /> # Visit URL
-                    <br /> url = "http://search.twitter.com"
+                    <br /> url = "http://www.google.com"
                     <br /> browser.visit(url)
                     <br /> browser.fill('q', "#cobrateam")
                     <br /> # Find and click the 'search' button
-                    <br /> button = browser.find_by_css("#searchButton input").first
+                    <br /> button = browser.find_by_css(".lsb")
                     <br /> # Interact with elements
                     <br /> button.click()
-                    <br /> if browser.is_text_present("No results for #cobrateam"):
+                    <br /> if browser.is_text_present("did not match any documents"):
                     <br />     print "nobody likes us =("
                     <br /> else:
                     <br />     print "we're popular =)"
